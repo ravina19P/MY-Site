@@ -1,0 +1,151 @@
+.mainfooter {
+    width: 100%;
+    height: 800px;
+    border-radius: 4px;
+    background: #5f01bd;
+    position: relative;
+    margin-top: 70px;
+}
+
+.TOUCH {
+    color: #fff;
+    ;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-left: 5px;
+    text-align: start;
+}
+
+.help {
+    color: #fff;
+    ;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: start;
+}
+
+.logodiv {
+    text-align: start;
+    padding: 60px 0px;
+}
+
+.heading {
+    padding: 25px 0px;
+}
+
+.addressDiv {
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: start;
+    position: absolute;
+    bottom: 10px;
+    left: 100px;
+    right: 0;
+    padding: 20px;
+}
+
+.formBackground {
+    position: absolute;
+    top: 65px;
+    bottom: 65px;
+    right: 0px;
+    width: 710px;
+    height: 675px;
+    background-color: #fff;
+    border-radius: 25px 0px 0px 25px ;
+}
+.form {
+    position: relative;
+    padding: 35px;
+    text-align: start;
+}
+.form p{
+    color: #030114;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 600;   
+}
+.footerBTN{
+    border-radius: 80px;
+    border: 1px solid #9a9daa;
+    padding: 10px;
+    color: #030114;
+    font-family: 'Nunito', sans-serif;
+    background-color: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 7px;
+    cursor: pointer;
+}
+.submitBtn{
+    background-color: #8D49E4 !important;
+    border-radius: 20px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    color: #fff !important;
+    font-family: 'Nunito', sans-serif !important;
+}
+.attachmentLabel {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #5f01bd;
+}
+
+.attachmentLabel span {
+    margin-left: 8px;
+}
+
+.fileInput {
+    display: none;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .mainfooter {
+        height: auto; 
+        padding-bottom: 30px; 
+    }
+
+    .addressDiv {
+        position: static; 
+        left: 0;
+        right: 0;
+        padding: 20px;
+        text-align: center; 
+    }
+
+    .formBackground {
+        position: static; 
+        width: 100%;
+        height: auto; 
+        border-radius: 0; 
+        padding: 20px; 
+    }
+
+    .form {
+        text-align: center; 
+        padding: 20px; 
+    }
+
+    .form .row {
+        flex-direction: column; 
+    }
+
+    .footerBTN {
+        font-size: 14px; 
+    }
+
+    .submitBtn {
+        width: 100%; 
+    }
+}

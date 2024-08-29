@@ -1,0 +1,62 @@
+.ToolSetdiv {
+    margin-top: 150px;
+}
+.heading {
+    position: relative; 
+    padding-bottom: 20px; 
+    padding-left: 70px;
+}
+
+.headingBorder {
+    border-bottom: 1px solid #d9d6df;
+    width: 50%; 
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%); 
+    bottom: 0; 
+}
+
+.ToolSet{
+    color: #c4c7ce;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-left: 5px;
+    text-align: start;
+}
+.Development{
+    color: #d9d6df;
+    font-family: 'Nunito', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+}
+.Item img {
+    margin: 15px 75px; 
+}
+.Carouseldiv{
+    border-bottom: 1px solid #d9d6df; 
+}
+
+
+
+@media (max-width: 768px) {
+    .heading {
+        padding-left: 20px; 
+    }
+
+    .ToolSet {
+        font-size: 12px; 
+        text-align: center; 
+    }
+
+    .Development {
+        font-size: 24px; 
+        line-height: 32px; 
+        text-align: center; 
+    }
+    .Item img {
+        margin: 10px 7px; 
+    }
+}

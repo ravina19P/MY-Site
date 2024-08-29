@@ -1,0 +1,128 @@
+.blogDiv {
+    margin-top: 150px;
+}
+
+.BLOG {
+    color: #c4c7ce;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.Explore {
+    color: #d9d6df;
+    font-family: 'Nunito', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.carouselControlPrev {
+    padding: 20px !important;
+    border: 1px solid white !important;
+    border-radius: 100px !important;
+    margin: 10px !important;
+}
+
+.carouselControlNext {
+    padding: 20px !important;
+    border: 1px solid white !important;
+    border-radius: 100px !important;
+    margin: 10px !important;
+}
+
+.cardheading {
+    text-align: start;
+    color: #FFF;
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    position: absolute;
+    bottom: 10px;
+}
+
+.blogdate {
+    text-align: start !important;
+    width: 204px;
+    height: 22px;
+    text-wrap: nowrap;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    top: 550px;
+    left: 15px;
+}
+
+.blogdatespan {
+    color: #CDC9E4;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 350;
+}
+
+.card {
+    height: 625px !important;
+    flex-shrink: 0;
+    border-radius: 8px;
+    opacity: 0.6;
+    position: relative;
+    opacity: 0.8;
+    background: linear-gradient(91deg, #FF4C4C 5%, #D93D3D 115.73%);
+}
+
+.card-body {
+    position: relative;
+    padding: 0px;
+}
+
+.Btn{
+    border: 2px solid #8d49e4 !important;
+    border-radius: 20px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    color: #fff !important;
+    font-family: 'Nunito', sans-serif !important;
+}
+
+
+@media (max-width: 768px) {
+    .heading {
+        text-align: center !important; 
+        margin: 0px !important;
+    }
+    .BLOG {
+        font-size: 12px; 
+        margin-left: 0 !important;
+    }
+
+    .Explore {
+        font-size: 24px; 
+        line-height: 32px; 
+        margin-left: 0;     
+    }
+    .carouselControlPrev, .carouselControlNext {
+        display: none; 
+    }
+    .cardcontainer{
+        padding: 10px 10px !important;
+    }
+    .card{
+        margin-top: 12px;
+    }
+    .headingformobile{
+        margin: 0px !important; 
+    }
+}

@@ -1,0 +1,211 @@
+.rowcontainer {
+    margin: 130px !important;
+}
+
+.Btn {
+    background-color: #8D49E4 !important;
+    border-radius: 20px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    color: #fff !important;
+    font-family: 'Nunito', sans-serif !important;
+}
+
+.leftblock {
+    text-align: start;
+}
+
+.LogoPara {
+    color: #d9d6df;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 3px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.heading {
+    color: #d9d6df;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 50px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.subheading {
+    color: #d9d6df;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.rightblock {
+    text-align: start;
+    padding: 20px;
+    width: 360px;
+    height: 330px;
+    border-radius: 8px;
+    background: #5f01bd;
+}
+
+.services {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 10px;
+}
+
+.serviceBTN {
+    border-radius: 80px;
+    border: 1px solid #9a9daa;
+    padding: 8px;
+    background-color: inherit;
+    color: #faf9fd;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 7px;
+    cursor: pointer;
+}
+
+.card1 {
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 325px;
+    height: 135px;
+    border-radius: 8px;
+    background-color: #1E1A2B;
+
+}
+
+.card1 p {
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+}
+
+.team {
+    color: #d9d6df;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    font-weight: 350;
+}
+
+.dreambuild {
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 20px;
+}
+
+.card2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 325px;
+    height: 135px;
+    border-radius: 8px;
+    background: #FE720D;
+}
+
+.ten {
+    color: #180c1f;
+    font-family: 'Nunito', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.industry {
+    color: #3f2410;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2.5px;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .rowcontainer {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .leftblock,
+    .rightblock {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .rightblock span {
+        color: #fff;
+    }
+
+    .Btn {
+        border-radius: 20px !important;
+    }
+
+    .rightblock {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .cardContainer {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .card1,
+    .card2 {
+        height: auto;
+        flex-direction: column;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        width: 100%;
+        height: auto;
+        margin: 0 auto 20px;
+    }
+
+    .card1 img,
+    .card2 img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    body,
+    html {
+        overflow-x: hidden;
+    }
+
+    .heading {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 50px;
+        text-align: start;
+    }
+
+    .subheading {
+        font-size: 18px;
+        font-weight: 400;
+        text-align: start;
+    }
+
+    .LogoPara {
+        text-align: start;
+    }
+
+    .cardContainer {
+        margin-right: 15px !important;
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+        display: flex !important;
+    }
+
+}

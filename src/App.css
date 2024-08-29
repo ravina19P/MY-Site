@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+.App {
+  background-color: #0a0a20;
+  min-height: 100vh;
+  /* color: #fff */
+}
