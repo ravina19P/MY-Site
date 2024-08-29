@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/MY-Site/static/css/main.f3740f90.css",
+    "main.js": "/MY-Site/static/js/main.408f0d26.js",
+    "static/js/453.7ee4257d.chunk.js": "/MY-Site/static/js/453.7ee4257d.chunk.js",
+    "static/media/mobilityserviceimage.png": "/MY-Site/static/media/mobilityserviceimage.8f355cf0f96226e002f5.png",
+    "static/media/our-process-2.jpg": "/MY-Site/static/media/our-process-2.574c1bea0f544f79aa92.jpg",
+    "static/media/our-process-4.jpg": "/MY-Site/static/media/our-process-4.8563e7c901b50a4f52fc.jpg",
+    "static/media/our-process-3.jpg": "/MY-Site/static/media/our-process-3.82d286e477b0d7c8a9f0.jpg",
+    "static/media/our-process.jpg": "/MY-Site/static/media/our-process.fe1671df36d53918b907.jpg",
+    "static/media/SEO..avif": "/MY-Site/static/media/SEO..06f8b17cda4dbb4ad68b.avif",
+    "static/media/e-commerce1.jpeg": "/MY-Site/static/media/e-commerce1.86847e2f32530174bfd8.jpeg",
+    "static/media/ceo.png": "/MY-Site/static/media/ceo.5b36dfde95ea389cd047.png",
+    "index.html": "/MY-Site/index.html",
+    "static/media/hiring-bar.svg": "/MY-Site/static/media/hiring-bar.91dd26c05dd8da05fbdd001676d38591.svg",
+    "main.f3740f90.css.map": "/MY-Site/static/css/main.f3740f90.css.map",
+    "main.408f0d26.js.map": "/MY-Site/static/js/main.408f0d26.js.map",
+    "453.7ee4257d.chunk.js.map": "/MY-Site/static/js/453.7ee4257d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3740f90.css",
+    "static/js/main.408f0d26.js"
+  ]
+}
